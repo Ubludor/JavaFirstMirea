@@ -1,6 +1,8 @@
-package ru.mirea.test;
+package ru.mirea.task8;
 
-public class Main {
+
+
+public class GUI {
 
     public static void main(String[] args) {
 
