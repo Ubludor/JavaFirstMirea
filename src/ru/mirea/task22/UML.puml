@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Chair
+{
+    String name;
+    public String getName()
+    public void setName(String name)
+    public void name()
+}
+
+class MULTY
+{
+ public void name()
+}
+class MAGIC
+ {
+  public void name()
+ }
+ class VIKTORIAN
+  {
+   public void name()
+  }
+
+
+Chair <|-- MULTY
+Chair <|-- MAGIC
+Chair <|-- VIKTORIAN
+
+
+
+enum ChairType {
+    VIKTORIAN
+    MULTY
+    MAGIC
+}
+
+class ChairFabric
+{
+public Chair createChair(ChairType type)
+
+}
+
+@enduml

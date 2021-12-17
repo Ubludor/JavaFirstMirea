@@ -47,7 +47,7 @@ public class Test {
         s[2]=new SortingStudentsByGPA("su_34",6788);
         s[3]=new SortingStudentsByGPA("tommahowk",56);
         s[4]=new SortingStudentsByGPA("Abrams",444);
-        s[5]=new SortingStudentsByGPA("armata",7);
+        s[5]=new SortingStudentsByGPA("armata",777777);
         s[6]=new SortingStudentsByGPA("t_80",434);
         s[7] = new SortingStudentsByGPA("cobra",98);
         s[8] = new SortingStudentsByGPA("yak_30",13);
